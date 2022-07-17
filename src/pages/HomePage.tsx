@@ -64,7 +64,7 @@ const HomePage = () => {
 
     return (
         <MainLayout error={error} isLoading={loading}>
-            <div className='flex justify-between mx-28 px-10 mt-14 items-center '>
+            <div className='flex justify-between mx-28 px-10 mt-14 items-center md:flex-row sm:space-y-4 sm:flex-col'>
                 {/* search bar */}
                 <section className='relative w-full max-w-md  rounded-md'>
                     <div className='relative border-gray-800 border-4 rounded-md'>
