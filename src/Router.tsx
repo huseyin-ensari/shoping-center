@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { HomePage, ProductDetail, AddProduct } from './pages';
+import { HomePage, ProductDetail, AddProduct, ErrorPage } from './pages';
 
 function App() {
     return (
@@ -8,6 +8,7 @@ function App() {
                 <Route path='/' element={<HomePage />} />
                 <Route path='/product/:id' element={<ProductDetail />} />
                 <Route path='/add' element={<AddProduct />} />
+                <Route path='*' element={<ErrorPage />} />
             </Routes>
         </BrowserRouter>
     );
