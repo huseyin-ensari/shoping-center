@@ -10,7 +10,7 @@ type CardProps = {
 const Card: FunctionComponent<CardProps> = ({ name, avatar, price }) => {
     return (
         <>
-            <div className='p-6 border-4 border-gray-700 rounded-lg'>
+            <div className='p-6 border-4 border-gray-700 rounded-lg hover:shadow-2xl'>
                 <img
                     className='object-cover object-center w-full mb-6 lg:h-48 md:h-52 rounded-xl'
                     src={avatar}

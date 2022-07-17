@@ -6,5 +6,5 @@ export default axios.create({ baseURL: BASE_URL });
 
 export const URL = {
     products: '/products',
-    categories: '/categories'
+    categories: '/categories',
 };
