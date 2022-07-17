@@ -91,10 +91,11 @@ const HomePage = () => {
                     )}
                 </section>
                 {/* select  */}
-                <div className='mb-3 xl:w-96 border-gray-800 border-4 rounded-md'>
+                <div className='mb-3 xl:w-96 border-gray-800 border-4 rounded-md '>
                     <select
                         onChange={handleCategory}
                         className='form-select appearance-none
+                        cursor-help	
                         block
                         w-full
                         px-3
